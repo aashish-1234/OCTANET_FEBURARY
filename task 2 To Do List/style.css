@@ -1,0 +1,94 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(190, 85, 32, 0.629);
+}
+
+.container{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.container input{
+    height: 6vh;
+    width: 18%;
+    border: 3px dashed blue;
+    font-size: 20px;
+    font-weight:16px;
+    padding-left:8px;
+}
+
+.container #submit{
+    margin-left: 3%;
+    padding: 10px 19px;
+    border-radius: 5px;
+    background-color:rgba(255, 0, 0, 0.802) ;
+    color: whitesmoke;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger;
+    border: none;
+}
+#submit:hover{
+    color: #2b14ad;
+    box-shadow: 5px 5px 10px rgb(7, 7, 115) ;  /*left,right,spread, color  */
+}
+h1{
+    display: block;
+    text-align: center;
+    margin-top: 2%;
+    font-family: "Honk", system-ui;
+    font-size:50px;
+}
+.list_container{
+    margin: 10px auto;
+    border: 2px solid black;
+    width: 35%;
+    padding: 5px;
+    border-radius:7px;
+    height:450px;
+    background-color: antiquewhite;
+    
+}
+.list_container #span_format{
+    font-family: sans-serif;
+	font-size: 25px;
+	font-weight:400;
+    display: inline;
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 80%;			
+    overflow-wrap: break-word;
+    float: left;
+    margin-bottom: 10px;
+    /* font-family: 'Exo 2', sans-serif; */
+    font-family: "Varela Round", sans-serif;
+    
+}
+#delete{
+    margin-top:5px;
+    width:15%;
+    height:5%;
+    float: right;
+    font-size:1.5vh;
+	border: none;
+	color: white;
+	background-color: rgb(81, 87, 150);
+    border-radius: 5px;
+}
+#delete:hover{
+    box-shadow: 5px 5px 10px rgb(125, 132, 78) ;
+}
+@media (max-width:600px){
+    #span_format {
+        font-size:1vh;
+    }   
+    #delete{
+        font-size: 1.5vw;
+    }
+}
